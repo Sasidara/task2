@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tic Tac Toe</h1>
+    <div class="player-select-container">
+      <label for="player-select">Play against:</label>
+      <select id="player-select">
+        <option value="ai">AI</option>
+        <option value="human">Human</option>
+      </select>
+    </div>
+    <div id="board" class="board">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+    <div id="message" class="message">It's X's turn</div>
+    <button id="reset-button">Reset</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
